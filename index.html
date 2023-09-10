@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <h1>Number Guessing Game</h1>
+        <p>Guess a number between 1 and 100</p>
+        <input type="number" id="guessInput" class="form-control" placeholder="Enter your guess">
+        <button id="guessButton" class="btn btn-primary mt-2">Submit Guess</button>
+        <p id="message" class="mt-3"></p>
+        <p id="attempts">Guesses: <span id="guessCount">0</span></p>
+        <button id="resetButton" class="btn btn-secondary">Reset Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
